@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phước Chuyên Trộm Chó - Kỷ Lục Gia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff4e50, #f9d423);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+
+        .tagline {
+            font-style: italic;
+            color: #eee;
+            margin-top: 5px;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-box {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ff4e50;
+        }
+
+        .stat-box h3 {
+            font-size: 1.2rem;
+            color: #f9d423;
+        }
+
+        .stat-box p {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .action-zone {
+            background-color: #222;
+            padding: 40px 20px;
+            border-radius: 15px;
+            border: 1px dashed #555;
+            margin-bottom: 20px;
+        }
+
+        .btn-steal {
+            background: linear-gradient(135deg, #ff4e50, #f9d423);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(255, 78, 80, 0.4);
+            transition: transform 0.1s, box-shadow 0.2s;
+        }
+
+        .btn-steal:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 5px rgba(255, 78, 80, 0.4);
+        }
+
+        .log-box {
+            background-color: #111;
+            padding: 15px;
+            border-radius: 10px;
+            height: 150px;
+            overflow-y: auto;
+            text-align: left;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00;
+            border: 1px solid #333;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Phước Chuyên Trộm Chó</h1>
+        <p class="tagline">"Đã ra tay là không có đường lui - Exiter 150 huyền thoại"</p>
+    </header>
+
+    <main>
+        <!-- Bảng thành tích -->
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Số Chó Đã Trộm</h3>
+                <p id="dog-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Tốc Độ Bỏ Chạy</h3>
+                <p>180 km/h</p>
+            </div>
+            <div class="stat-box">
+                <h3>Uy Tín</h3>
+                <p style="color: #ff4e50;">99.9%</p>
+            </div>
+        </div>
+
+        <!-- Khu vực bấm tương tác -->
+        <div class="action-zone">
+            <p style="margin-bottom: 20px; font-size: 1.1rem;">Nhấn nút bên dưới để giúp Phước xuất chiêu!</p>
+            <button class="btn-steal" onclick="stealDog()">HÀNH ĐỘNG NGAY</button>
+        </div>
+
+        <!-- Nhật ký hành động -->
+        <h3 style="text-align: left; margin-bottom: 5px; color: #f9d423;">Nhật ký hành tung:</h3>
+        <div class="log-box" id="log-box">
+            [Hệ thống]: Phước đang nổ máy xe Exciter... Sẵn sàng! <br>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Website mang tính chất giải trí, vui lòng không bắt chước ngoài đời thực.</p>
+    </footer>
+
+    <script>
+        let count = 0;
+        const dogTypes = ["Chó Cỏ", "Chó Pitbull", "Chó Husky ngáo", "Chó Golden", "Chó Poodle"];
+        const situations = [
+            "thành công mỹ mãn, gia chủ chưa kịp hiểu chuyện gì.",
+            "bị chủ nhà phát hiện nhưng lướt Exiter chạy thoát trong gang tấc!",
+            "suýt bị chó cắn ngược lại nhưng nhờ kinh nghiệm 10 năm đã xử lý gọn.",
+            "nhặt được thêm một đôi dép lào của chủ nhà để lại."
+        ];
+
+        function stealDog() {
+            count++;
+            document.getElementById('dog-count').innerText = count;
+
+            // Ngẫu nhiên chọn loại chó và tình huống
+            const randomDog = dogTypes[Math.floor(Math.random() * dogTypes.length)];
+            const randomSit = situations[Math.floor(Math.random() * situations.length)];
+
+            // Tạo dòng log mới
+            const logBox = document.getElementById('log-box');
+            const newLog = `[Hành động]: Phước đã câu được 1 em <b>${randomDog}</b> - ${randomSit}<br>`;
+            
+            // Thêm vào log và tự động cuộn xuống dưới
+            logBox.innerHTML += newLog;
+            logBox.scrollTop = logBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
