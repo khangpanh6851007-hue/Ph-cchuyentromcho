@@ -1,6 +1,6 @@
-# 🐕 Phước Chuyên Trộm Chó - The Ultimate Clicker Game
+# 🐕 Phước Chuyên Trộm Chó - Cô Thảo
 
-Chào mừng bạn đến với kho lưu trữ dự án **Phước Chuyên Trộm Chó** – một mini-game dạng clicker giả lập siêu giải trí, được tối ưu hóa hoàn hảo để lập trình và chạy trực tiếp trên điện thoại qua ứng dụng **Acode**.
+Chào mừng bạn đến với kho lưu trữ dự án **Phước Chuyên Trộm Chó Cô Thảo** – một mini-game dạng clicker giả lập siêu giải trí, được tối ưu hóa hoàn hảo để lập trình và chạy trực tiếp trên điện thoại qua ứng dụng **Acode**.
 
 ---
 
