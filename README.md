@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/Language-HTML5%20%2F%20CSS3%20%2F%20JS-blue?style=flat-square)](https://developer.mozilla.org/)
 [![Version](https://img.shields.io/badge/Version-2007%20Meme-ff007f?style=flat-square)](#)
 
-Một tựa game mini giải trí dạng **Clicker & Idle Game** phong cách Yahoo Messenger / Audition năm . Dự án được tối ưu hóa 100% để lập trình, chỉnh sửa và chạy trực tiếp trên điện thoại thông qua ứng dụng **Acode**.
+Một tựa game mini giải trí dạng **Clicker & Idle Game** phong cách Yahoo Messenger / Audition năm . Dự án được tối ưu hóa 100% để lập trình, chỉnh sửa và chạy trực tiếp trên điện thoại thông qua ứng dụng ****.
 
 > **Đồng tài trợ & Góp vui bởi:** Cậu Lộc & Nguyễn Hoàng Hải Long 
 
@@ -28,7 +28,7 @@ Một tựa game mini giải trí dạng **Clicker & Idle Game** phong cách Yah
 
 1. Tải ứng dụng ** - powerful  editor** từ Google Play Store.
 2. Tạo một file mới bên trong ứng dụng và lưu với tên `index.html`.
-3. Sao chép toàn bộ mã nguồn của phiên bản 2007 và dán vào file vừa tạo.
+3. Sao chép toàn bộ mã nguồn của phiên bản và dán vào file vừa tạo.
 4. Nhấn nút **Play (Hình tam giác)** ở thanh công cụ phía trên để khởi chạy game trực tiếp.
 
 *Nếu chạy trên máy tính, bạn chỉ cần click đúp vào file `index.html` để mở bằng bất kỳ trình duyệt nào (Chrome, Edge, Firefox...).*
