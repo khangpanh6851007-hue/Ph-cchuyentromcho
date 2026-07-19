@@ -1,53 +1,35 @@
-# 🐕 Phước Chuyên Trộm Chó - Cô Thảo
+# 🐶 Phước Chuyên Trộm Chó -Cô Thảo
 
-Chào mừng bạn đến với kho lưu trữ dự án **Phước Chuyên Trộm Chó Cô Thảo** – một mini-game dạng clicker giả lập siêu giải trí, được tối ưu hóa hoàn hảo để lập trình và chạy trực tiếp trên điện thoại qua ứng dụng **Acode**.
+[![Acode Compatible](https://img.shields.io/badge/IDE-Acode-orange?style=flat-square&logo=visual-studio-code)](https://acode.foxbyte.tech/)
+[![Language](https://img.shields.io/badge/Language-HTML5%20%2F%20CSS3%20%2F%20JS-blue?style=flat-square)](https://developer.mozilla.org/)
 
----
-
-## 🎯 Giới Thiệu Dự Án
-
-Dự án này là một trang web mang tính chất giải trí, châm biếm lành mạnh xoay quanh nhân vật huyền thoại "Phước" cùng chiếc Exciter 150. Game giúp người chơi trải nghiệm cảm giác "vượt khó" thông qua cơ chế bấm nút tích điểm và theo dõi nhật ký hành tung đầy biến động.
-
-> ⚠️ **KHUYẾN CÁO QUAN TRỌNG:** Website này được tạo ra thuần túy vì mục đích giải trí và học tập lập trình (HTML/CSS/JS). Tuyệt đối không cổ xúy hoặc bắt chước các hành vi vi phạm pháp luật ngoài đời thực!
+Một trang web mini-game giải trí dạng clicker được viết bằng HTML, CSS và JavaScript thuần. Dự án được tối ưu hóa hoàn hảo để chỉnh sửa và chạy trực tiếp trên điện thoại thông qua trình biên dịch **Acode**.
 
 ---
 
-## ✨ Các Tính Năng Nổi Bật
+## 🚀 Tính năng nổi bật
 
-*   **Giao diện "Night-Ops" Đậm Chất:** Tone màu tối (Dark Mode) kết hợp với dải màu neon rực lửa, mang lại không khí của những chuyến "vận hành đêm".
-*   **Cơ chế Clicker Real-time:** Bộ đếm số lượng hoạt động mượt mà, phản hồi ngay lập tức khi người chơi tương tác.
-*   **Hệ thống Nhật ký Ngẫu nhiên (Dynamic Logs):** Thuật toán tự động random hàng chục kịch bản dở khóc dở cười (gặp Husky ngáo, bị Pitbull rượt, nhặt được dép lào...).
-*   **Responsive Design:** Hiển thị mượt mà trên mọi thiết bị, từ màn hình điện thoại siêu nhỏ cho đến máy tính.
-
----
-
-## 🛠️ Công Nghệ Sử Dụng
-
-Dự án sử dụng bộ ba huyền thoại của lập trình Front-end (Không cần cài đặt thư viện ngoài):
-*   **HTML5:** Cấu trúc layout và các thành phần giao diện.
-*   **CSS3:** Flexbox/Grid, hiệu ứng Gradient chuyển màu và hiệu ứng Click-bounce cho nút bấm.
-*   **JavaScript (Vanilla JS):** Xử lý logic đếm số, mảng ngẫu nhiên (Random Array) và tự động cuộn nhật ký (`scrollTop`).
+- **Giao diện chuẩn "Hành tung bí ẩn":** Thiết kế phong cách Dark Mode kết hợp hiệu ứng chuyển màu rực rỡ (Neon Gradient).
+- **Cơ chế Clicker Game:** Hệ thống tăng điểm thời gian thực khi tương tác.
+- **Hệ thống Nhật ký Ngẫu nhiên (AI Log System "Chạy bằng cơm"):** Tự động tạo ra hàng chục kịch bản dở khóc dở cười mỗi khi "Phước" ra tay (Gặp Husky ngáo, bị Pitbull rượt, hay nhặt được dép lào...).
+- **Responsive Design:** Hiển thị mượt mà trên mọi thiết bị từ điện thoại cùi bắp đến màn hình máy tính 4K.
 
 ---
 
-## 📱 Hướng Dẫn Chạy Trên Ứng Dụng Acode
+## 🛠️ Hướng dẫn cài đặt & Chạy trên Acode (Điện thoại)
 
-Để chạy dự án này trực tiếp trên điện thoại của bạn bằng **Acode App**, hãy làm theo các bước sau:
+1. **Tải ứng dụng:** Đảm bảo bạn đã cài đặt ứng dụng **Acode - powerful code editor** trên Android.
+2. **Tạo file:** Mở Acode, tạo một file mới và lưu với tên `index.html`.
+3. **Dán Code:** Sao chép toàn bộ mã nguồn của trang web và dán vào file.
+4. **Chạy dự án:** Nhấn vào biểu tượng nút **Play (Hình tam giác)** ở góc trên thanh công cụ để thưởng thức trò chơi.
 
-1.  **Mở Acode** và tạo một file mới.
-2.  Lưu file với tên chính xác là `index.html`.
-3.  Sao chép toàn bộ mã nguồn HTML/CSS/JS của dự án và dán vào file.
-4.  Nhấn vào biểu tượng **Play (Hình tam giác)** ở góc trên bên phải màn hình.
-5.  Thưởng thức thành quả và bắt đầu giúp Phước "vận hành"!
-
----
-
-## 📈 Hướng Phát Triển Tương Lai (Ý Tưởng Nâng Cấp)
-
-Nếu bạn muốn nâng cấp dự án này lên một tầm cao mới, dưới đây là một vài gợi ý:
-- [ ] **Hệ thống Shop/Nâng cấp:** Dùng số lượng chó đổi lấy "Exciter 150 độ trái 62zz", "Ống câu cao cấp" để tự động tăng số lượng theo giây (Idle Game).
-- [ ] **Âm thanh:** Thêm tiếng nổ máy xe "pằng pằng", tiếng chó sủa khi bấm nút.
-- [ ] **Bảng xếp hạng (Leaderboard):** Lưu điểm vào `LocalStorage` để thi đấu xem ai giúp Phước lọt top 1 sever.
+Nếu bạn muốn chạy trên máy tính, chỉ cần click đúp vào file `index.html` để mở bằng trình duyệt (Chrome, Edge, Safari...).
 
 ---
 
+## 📂 Cấu trúc thư mục dự án
+
+```text
+└── phuoc-trom-cho-web/
+    ├── index.html     # Mã nguồn chính (Bao gồm giao diện, style và logic xử lý)
+    └── README.md      # Tài liệu hướng dẫn này
