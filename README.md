@@ -50,4 +50,4 @@ Nếu bạn muốn nâng cấp dự án này lên một tầm cao mới, dưới
 - [ ] **Bảng xếp hạng (Leaderboard):** Lưu điểm vào `LocalStorage` để thi đấu xem ai giúp Phước lọt top 1 sever.
 
 ---
-Chúc bạn có những giây phút lập trình vui vẻ với Acode! 🚀
+
