@@ -1,51 +1,49 @@
-# 🐶 Phước Cô Thảo Chuyên Trộm Chó - Phiên Bản Xu & Bé Đen Nhỏ (2026)
+# 🐶 Phước Cô Thảo Chuyên Trộm Chó - Phiên Bản Xu & Bé Đen Nhỏ
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?style=flat-square&logo=github)](https://github.com/)
 [![Built with Acode](https://img.shields.io/badge/Built%20with-Acode%20Android-blue?style=flat-square)](https://play.google.com/store/apps/details?id=com.foxdebug.acode)
 [![Style](https://img.shields.io/badge/Style-Y2K%20/%202007%20Audition-ff007f?style=flat-square)]()
 
-Một tựa game giải trí phong cách **Clicker / Idle Game** mang đậm màu sắc hoài niệm những năm 2007, kết hợp với các công nghệ và tính năng hiện đại của năm 2026. Dự án được tối ưu hóa hoàn hảo để phát triển trên môi trường di động (**Acode App**) và triển khai nhanh chóng thông qua **GitHub Pages**.
+Một tựa game giải trí phong cách **Clicker / Idle Game** mang đậm màu sắc hoài niệm những năm 2007 (thời hoàng kim của Yahoo Messenger và Audition), kết hợp các tính năng tương tác hiện đại. Dự án được tối ưu hóa hoàn hảo để lập trình trên ứng dụng **Acode (Android)** và chạy trực tuyến miễn phí qua **GitHub Pages**.
 
 ---
 
-## 🚀 Tính Năng Mới Cập Nhật (Phiên Bản 2026)
+## 🚀 Các Tính Năng Mới Trong Bản Cập Nhật
 
-*   **📞 Tích Hợp Gọi Trực Tiếp (Direct Call System):** Banner đường dây nóng thông minh. Người chơi chỉ cần nhấn vào nút chuộc pet, hệ thống sẽ tự động kích hoạt trình gọi điện (`tel:`) trên smartphone.
-*   **🤖 Trợ Lý Ảo Đua Đêm (Giả Lập Gemini AI):** Hệ thống AI tích hợp hiển thị hộp thoại tương tác động, đưa ra chỉ dẫn, cảnh báo địa bàn và phản hồi theo thời gian thực dựa trên tiến trình của người chơi.
-*   **🎯 Tuyến Cốt Truyện "Xu & Bé Đen Nhỏ":** Bổ sung vật phẩm tối thượng **Rada Định Vị Vệ Tinh**. Khi kích hoạt sẽ mở khóa tỷ lệ săn tìm hai mục tiêu VIP truyền thuyết: *Chó Tên Xu* và *Bé Đen Nhỏ*.
-*   **⚡ Hiệu Ứng Click Thần Tốc:** Tạo hiệu ứng icon emoji rơi ngẫu nhiên ngay tại vị trí con trỏ chuột/ngón tay chạm trên màn hình, mang lại cảm giác phản hồi cực đã tay.
+*   **📞 Hệ Thống Gọi Điện Cứu Hộ Trực Tiếp:** Tích hợp giao thức `tel:`, người chơi chỉ cần bấm vào nút chuộc pet trên giao diện, điện thoại sẽ tự động mở màn hình cuộc gọi đến đường dây nóng.
+*   **🤖 Trợ Lý Ảo Đua Đêm (Giả Lập Gemini AI):** Hộp thoại tương tác thông minh, liên tục đưa ra lời thoại cổ vũ, định vị mục tiêu hoặc cảnh báo nguy hiểm theo thời gian thực dựa trên số điểm bạn bấm được.
+*   **🎯 Cốt Truyện "Xu & Bé Đen Nhỏ":** Bổ sung nâng cấp tối thượng **Rada Định Vị Vệ Tinh V.I.P** ở Chợ Đen để khóa mục tiêu và săn lùng hai chú chó huyền thoại: *Tên Xu* và *Bé Đen Nhỏ*.
+*   **✨ Hiệu Ứng Bấm Nổ Emoji:** Khi chạm/click liên tục vào nút hành động, các hiệu ứng lấp lánh và icon độc lạ sẽ bay ra ngay tại vị trí ngón tay của bạn.
 
 ---
 
 ## 🛠️ Công Nghệ Sử Dụng
 
-*   **Frontend:** Pure HTML5, CSS3 (Grid Layout, Flexbox, Keyframe Animations).
-*   **Logic Game:** Thuần JavaScript (Vanila JS), quản lý trạng thái (`State`), vòng lặp tự động (`setInterval`).
-*   **Môi trường phát triển:** Tối ưu hóa 100% trên ứng dụng chỉnh sửa mã nguồn **Acode (Android)**.
+*   **Ngôn ngữ:** HTML5, CSS3 (Animations, Grid/Flexbox), JavaScript thuần (Vanilla JS).
+*   **Môi trường phát triển tối ưu:** Ứng dụng **Acode - Chỉnh sửa mã nguồn** trên Android.
 
 ---
 
-## 📦 Hướng Dẫn Cài Đặt & Chạy Dự Án
+## 📦 Hướng Dẫn Cài Đặt & Cập Nhật Lên GitHub Pages
 
-### Cách 1: Chạy trực tiếp qua Acode trên Android
-1. Sao chép toàn bộ mã nguồn của tệp `index.html`.
-2. Mở ứng dụng **Acode**, tạo một tệp mới đặt tên là `index.html` và dán mã nguồn vào.
-3. Nhấn vào biểu tượng **Play** trên thanh công cụ của Acode để khởi chạy và trải nghiệm game ngay trên điện thoại.
+### Bước 1: Sửa file trên GitHub
+1. Vào kho lưu trữ (Repository) của bạn trên GitHub.
+2. Mở file `index.html`.
+3. Bấm vào biểu tượng **Cây bút (Edit)**, xóa hết code cũ và dán toàn bộ mã nguồn HTML phiên bản mới vào.
+4. Bấm **Commit changes...** để lưu lại.
 
-### Cách 2: Treo game lên GitHub Pages (Miễn phí)
-1. Tạo một kho lưu trữ (**Repository**) mới trên GitHub của bạn.
-2. Tải tệp `index.html` lên nhánh chính (`main` hoặc `master`).
-3. Đi tới mục **Settings** (Cài đặt) -> **Pages**.
-4. Tại mục *Build and deployment*, chọn nhánh `main` và thư mục `/ (root)`, sau đó nhấn **Save**.
-5. Chờ khoảng 1-2 phút, GitHub sẽ cung cấp cho bạn một đường liên kết dạng `https://<ten-tai-khoan>.github.io/<ten-kho-luu-tru>/` để chơi trực tuyến.
-
----
-
-## 📝 Bản Quyền và Tài Trợ
-
-*   **Ý tưởng & Nội dung:** Bản quyền thuộc về vũ trụ trộm chó thời đại mới.
-*   **Nhà tài trợ vàng:** Đồng hành và tài trợ dàn xe Exciter đời mới bởi **Cậu Lộc Góp Vui** & **Nguyễn Hoàng Hải Long**.
-*   **Đường dây nóng hỗ trợ toàn quốc:** `0327770315`
+### Bước 2: Kích hoạt web chơi trực tuyến (Nếu chưa làm)
+1. Chuyển sang tab **Settings** (Cài đặt) của Repository đó.
+2. Chọn mục **Pages** ở danh mục bên trái.
+3. Tại phần *Build and deployment*, chọn nhánh `main` (hoặc `master`) rồi bấm **Save**.
+4. Chờ 1-2 phút, GitHub sẽ cấp cho bạn một đường link để truy cập chơi game trực tiếp.
 
 ---
-*Lưu ý: Đây là trò chơi giả lập clicker mang tính chất giải trí thuần túy, không cổ xúy cho bất kỳ hành vi vi phạm pháp luật nào ngoài đời thực.*
+
+## 📝 Thông Tin Phân Phối & Bản Quyền
+
+*   **Đội ngũ bảo mật và tài trợ:** Dự án được đóng góp vui bởi **Cậu Lộc** và vận hành bốc đầu bởi **Nguyễn Hoàng Hải Long**.
+*   **Đường dây nóng chuộc chó toàn quốc:** `0327770315`
+
+---
+*Khuyến cáo: Trò chơi được xây dựng hoàn toàn vì mục đích giải trí và troll hài hước, không cổ xúy hoặc liên quan đến bất kỳ hành vi vi phạm pháp luật nào ngoài đời thực.*
