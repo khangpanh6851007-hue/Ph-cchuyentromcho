@@ -1,49 +1,49 @@
-# 🐶 Phước Cô Thảo Chuyên Trộm Chó - Phiên Bản Xu & Bé Đen Nhỏ
+# 🐶 Phước Cô Thảo Chuyên Trộm Chó - Phiên Bản Xu & Bé Đen Nhỏ (2026)
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?style=flat-square&logo=github)](https://github.com/)
 [![Built with Acode](https://img.shields.io/badge/Built%20with-Acode%20Android-blue?style=flat-square)](https://play.google.com/store/apps/details?id=com.foxdebug.acode)
 [![Style](https://img.shields.io/badge/Style-Y2K%20/%202007%20Audition-ff007f?style=flat-square)]()
 
-Một tựa game giải trí phong cách **Clicker / Idle Game** mang đậm màu sắc hoài niệm những năm 2007 (thời hoàng kim của Yahoo Messenger và Audition), kết hợp các tính năng tương tác hiện đại. Dự án được tối ưu hóa hoàn hảo để lập trình trên ứng dụng **Acode (Android)** và chạy trực tuyến miễn phí qua **GitHub Pages**.
+Một trò chơi giải trí phong cách **Clicker / Idle Game** mang đậm màu sắc hoài niệm năm 2007, kết hợp với các tính năng tương tác tự động hiện đại. Dự án được tối ưu hóa 100% để lập trình trên điện thoại bằng ứng dụng **Acode (Android)** và triển khai trực tiếp qua **GitHub Pages**.
 
 ---
 
-## 🚀 Các Tính Năng Mới Trong Bản Cập Nhật
+## 🚀 Các Tính Năng Mới Cập Nhật
 
-*   **📞 Hệ Thống Gọi Điện Cứu Hộ Trực Tiếp:** Tích hợp giao thức `tel:`, người chơi chỉ cần bấm vào nút chuộc pet trên giao diện, điện thoại sẽ tự động mở màn hình cuộc gọi đến đường dây nóng.
-*   **🤖 Trợ Lý Ảo Đua Đêm (Giả Lập Gemini AI):** Hộp thoại tương tác thông minh, liên tục đưa ra lời thoại cổ vũ, định vị mục tiêu hoặc cảnh báo nguy hiểm theo thời gian thực dựa trên số điểm bạn bấm được.
-*   **🎯 Cốt Truyện "Xu & Bé Đen Nhỏ":** Bổ sung nâng cấp tối thượng **Rada Định Vị Vệ Tinh V.I.P** ở Chợ Đen để khóa mục tiêu và săn lùng hai chú chó huyền thoại: *Tên Xu* và *Bé Đen Nhỏ*.
-*   **✨ Hiệu Ứng Bấm Nổ Emoji:** Khi chạm/click liên tục vào nút hành động, các hiệu ứng lấp lánh và icon độc lạ sẽ bay ra ngay tại vị trí ngón tay của bạn.
+* **📞 Đường Dây Nóng Cứu Hộ:** Tích hợp giao thức `tel:0327770315`, cho phép bấm nút trực tiếp từ trình duyệt để kích hoạt ứng dụng cuộc gọi trên điện thoại.
+* **🤖 Trợ Lý Ảo Đua Đêm (Gemini-Minit):** Hộp thoại AI tương tác động, đưa ra chỉ dẫn định vị, thông báo tình trạng và đưa lời khuyên theo thời gian thực dựa trên tiến trình chơi.
+* **🎯 Tuyến Cốt Truyện "Xu & Bé Đen Nhỏ":** Bổ sung vật phẩm tối thượng **Rada Vệ Tinh** ở Chợ Đen, giúp khóa mục tiêu và tăng mạnh tỷ lệ bắt 2 chó VIP truyền thuyết: *Tên Xu* và *Bé Đen Nhỏ*.
+* **✨ Hiệu Ứng Chạm Lấp Lánh:** Tự động tạo hiệu ứng ngôi sao và icon nổ tung ngay tại vị trí ngón tay/con trỏ chuột tương tác.
 
 ---
 
 ## 🛠️ Công Nghệ Sử Dụng
 
-*   **Ngôn ngữ:** HTML5, CSS3 (Animations, Grid/Flexbox), JavaScript thuần (Vanilla JS).
-*   **Môi trường phát triển tối ưu:** Ứng dụng **Acode - Chỉnh sửa mã nguồn** trên Android.
+* **Frontend:** HTML5, CSS3 (Grid Layout, Flexbox, Keyframe Animations).
+* **Game Logic:** Vanilla JavaScript (ES6+), xử lý sự kiện DOM và vòng lặp tự động `setInterval`.
+* **Môi trường phát triển:** Chỉnh sửa trực tiếp trên ứng dụng **Acode** trên di động.
 
 ---
 
-## 📦 Hướng Dẫn Cài Đặt & Cập Nhật Lên GitHub Pages
+## 📦 Hướng Dẫn Deploy Lên GitHub Pages
 
-### Bước 1: Sửa file trên GitHub
-1. Vào kho lưu trữ (Repository) của bạn trên GitHub.
-2. Mở file `index.html`.
-3. Bấm vào biểu tượng **Cây bút (Edit)**, xóa hết code cũ và dán toàn bộ mã nguồn HTML phiên bản mới vào.
-4. Bấm **Commit changes...** để lưu lại.
+### Cách 1: Sử Dụng Cấu Hình GitHub Pages Truyền Thống
+1. Vào **Settings** (Cài đặt) của Repository.
+2. Tìm đến mục **Pages** ở menu bên trái.
+3. Tại phần **Source**, chọn `Deploy from a branch`.
+4. Ở mục **Branch**, chọn `main` (hoặc `master`) / `root` và nhấn **Save**.
 
-### Bước 2: Kích hoạt web chơi trực tuyến (Nếu chưa làm)
-1. Chuyển sang tab **Settings** (Cài đặt) của Repository đó.
-2. Chọn mục **Pages** ở danh mục bên trái.
-3. Tại phần *Build and deployment*, chọn nhánh `main` (hoặc `master`) rồi bấm **Save**.
-4. Chờ 1-2 phút, GitHub sẽ cấp cho bạn một đường link để truy cập chơi game trực tiếp.
-
----
-
-## 📝 Thông Tin Phân Phối & Bản Quyền
-
-*   **Đội ngũ bảo mật và tài trợ:** Dự án được đóng góp vui bởi **Cậu Lộc** và vận hành bốc đầu bởi **Nguyễn Hoàng Hải Long**.
-*   **Đường dây nóng chuộc chó toàn quốc:** `0327770315`
+### Cách 2: Sử Dụng GitHub Actions (`.github/workflows/deploy.yml`)
+1. Tạo tệp `.github/workflows/deploy.yml` trong kho lưu trữ.
+2. Vào **Settings** -> **Pages** -> Chuyển **Source** sang `GitHub Actions`.
+3. Mỗi lần bấm Commit/Push, hệ thống sẽ tự động build và làm mới giao diện web.
 
 ---
-*Khuyến cáo: Trò chơi được xây dựng hoàn toàn vì mục đích giải trí và troll hài hước, không cổ xúy hoặc liên quan đến bất kỳ hành vi vi phạm pháp luật nào ngoài đời thực.*
+
+## 📝 Bản Quyền & Tài Trợ
+
+* **Đồng hành & Tài trợ:** Dàn xe Exciter đôn dên tài trợ bởi **Cậu Lộc Góp Vui** & **Nguyễn Hoàng Hải Long**.
+* **Đường dây nóng chuộc chó toàn quốc:** `0327770315`
+
+---
+*Lưu ý: Đây là trò chơi Clicker mang tính chất giải trí thuần túy, hoàn toàn không cổ xúy bất kỳ hành vi vi phạm pháp luật nào ngoài đời thực.*
