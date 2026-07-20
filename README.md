@@ -1,43 +1,51 @@
-# 🐶 Phước Chuyên Trộm Chó - Phiên Bản Hoài Niệm (Meme Clicker Game)
+# 🐶 Phước Cô Thảo Chuyên Trộm Chó - Phiên Bản Xu & Bé Đen Nhỏ (2026)
 
-[![Acode Compatible](https://img.shields.io/badge/IDE-Acode-orange?style=flat-square&logo=visual-studio-code)](https://acode.foxbyte.tech/)
-[![Language](https://img.shields.io/badge/Language-HTML5%20%2F%20CSS3%20%2F%20JS-blue?style=flat-square)](https://developer.mozilla.org/)
-[![Version](https://img.shields.io/badge/Version-2007%20Meme-ff007f?style=flat-square)](#)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?style=flat-square&logo=github)](https://github.com/)
+[![Built with Acode](https://img.shields.io/badge/Built%20with-Acode%20Android-blue?style=flat-square)](https://play.google.com/store/apps/details?id=com.foxdebug.acode)
+[![Style](https://img.shields.io/badge/Style-Y2K%20/%202007%20Audition-ff007f?style=flat-square)]()
 
-Một tựa game mini giải trí dạng **Clicker & Idle Game** phong cách Yahoo Messenger / Audition năm . Dự án được tối ưu hóa 100% để lập trình, chỉnh sửa và chạy trực tiếp trên điện thoại thông qua ứng dụng ****.
-
-> **Đồng tài trợ & Góp vui bởi:** Cậu Lộc & Nguyễn Hoàng Hải Long 
+Một tựa game giải trí phong cách **Clicker / Idle Game** mang đậm màu sắc hoài niệm những năm 2007, kết hợp với các công nghệ và tính năng hiện đại của năm 2026. Dự án được tối ưu hóa hoàn hảo để phát triển trên môi trường di động (**Acode App**) và triển khai nhanh chóng thông qua **GitHub Pages**.
 
 ---
 
-## 🚀 Các Tính Năng Tiện ÍCH Mới Cập Nhật
+## 🚀 Tính Năng Mới Cập Nhật (Phiên Bản 2026)
 
-- **Hệ thống Tiện Ích Chợ Đen (Upgrades Shop):** 
-  - *Bả Chó Hương Gà VIP:* Nâng cấp sức mạnh cú click (Tăng số chó nhận được trên mỗi lần bấm).
-  - *Xe Wave Độ Kiểng / Độ Loa Kẹo Kéo 2007:* Kích hoạt tính năng **Auto-Click (Tự động trộm chó theo giây - CPS)** giúp bạn có thể treo máy (AFK) tích điểm.
-- **Giao diện Giả lập Yahoo & Audition:** 
-  - Dòng chữ chạy ngang `<marquee>` huyền thoại thông báo tin khẩn.
-  - Khung phát nhạc giả lập "Nhạc buồn Audition ".
-  - Hiệu ứng ngôi sao lấp lánh `✨` bắn ra mỗi khi nhấn nút "HÀNH ĐỘNG NGAY".
-- **Hệ thống Nhật ký Yahoo Hành Tung:** Lưu lại lịch sử những phi vụ dở khóc dở cười của anh Phước (vấp phải Husky ngáo, bị Pitbull rượt, hay nhặt được dép lào...).
-- **Đường Dây Nóng Hỗ Trợ:** Tích hợp SĐT chuộc chó trực tiếp của ban quản trị ở chân trang.
+*   **📞 Tích Hợp Gọi Trực Tiếp (Direct Call System):** Banner đường dây nóng thông minh. Người chơi chỉ cần nhấn vào nút chuộc pet, hệ thống sẽ tự động kích hoạt trình gọi điện (`tel:`) trên smartphone.
+*   **🤖 Trợ Lý Ảo Đua Đêm (Giả Lập Gemini AI):** Hệ thống AI tích hợp hiển thị hộp thoại tương tác động, đưa ra chỉ dẫn, cảnh báo địa bàn và phản hồi theo thời gian thực dựa trên tiến trình của người chơi.
+*   **🎯 Tuyến Cốt Truyện "Xu & Bé Đen Nhỏ":** Bổ sung vật phẩm tối thượng **Rada Định Vị Vệ Tinh**. Khi kích hoạt sẽ mở khóa tỷ lệ săn tìm hai mục tiêu VIP truyền thuyết: *Chó Tên Xu* và *Bé Đen Nhỏ*.
+*   **⚡ Hiệu Ứng Click Thần Tốc:** Tạo hiệu ứng icon emoji rơi ngẫu nhiên ngay tại vị trí con trỏ chuột/ngón tay chạm trên màn hình, mang lại cảm giác phản hồi cực đã tay.
 
 ---
 
-## 🛠️ Hướng Dẫn Chạy Trên Điện Thoại 
+## 🛠️ Công Nghệ Sử Dụng
 
-1. Tải ứng dụng ** - powerful  editor** từ Google Play Store.
-2. Tạo một file mới bên trong ứng dụng và lưu với tên `index.html`.
-3. Sao chép toàn bộ mã nguồn của phiên bản và dán vào file vừa tạo.
-4. Nhấn nút **Play (Hình tam giác)** ở thanh công cụ phía trên để khởi chạy game trực tiếp.
-
-*Nếu chạy trên máy tính, bạn chỉ cần click đúp vào file `index.html` để mở bằng bất kỳ trình duyệt nào (Chrome, Edge, Firefox...).*
+*   **Frontend:** Pure HTML5, CSS3 (Grid Layout, Flexbox, Keyframe Animations).
+*   **Logic Game:** Thuần JavaScript (Vanila JS), quản lý trạng thái (`State`), vòng lặp tự động (`setInterval`).
+*   **Môi trường phát triển:** Tối ưu hóa 100% trên ứng dụng chỉnh sửa mã nguồn **Acode (Android)**.
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Dự Án
+## 📦 Hướng Dẫn Cài Đặt & Chạy Dự Án
 
-```text
-└── phuoc-trom-cho-2007/
-    ├── index.html     # Giao diện game, hiệu ứng CSS và Logic JavaScript xử lý Cửa hàng/Auto-click.
-    └── README.md      # Tài liệu hướng dẫn này.
+### Cách 1: Chạy trực tiếp qua Acode trên Android
+1. Sao chép toàn bộ mã nguồn của tệp `index.html`.
+2. Mở ứng dụng **Acode**, tạo một tệp mới đặt tên là `index.html` và dán mã nguồn vào.
+3. Nhấn vào biểu tượng **Play** trên thanh công cụ của Acode để khởi chạy và trải nghiệm game ngay trên điện thoại.
+
+### Cách 2: Treo game lên GitHub Pages (Miễn phí)
+1. Tạo một kho lưu trữ (**Repository**) mới trên GitHub của bạn.
+2. Tải tệp `index.html` lên nhánh chính (`main` hoặc `master`).
+3. Đi tới mục **Settings** (Cài đặt) -> **Pages**.
+4. Tại mục *Build and deployment*, chọn nhánh `main` và thư mục `/ (root)`, sau đó nhấn **Save**.
+5. Chờ khoảng 1-2 phút, GitHub sẽ cung cấp cho bạn một đường liên kết dạng `https://<ten-tai-khoan>.github.io/<ten-kho-luu-tru>/` để chơi trực tuyến.
+
+---
+
+## 📝 Bản Quyền và Tài Trợ
+
+*   **Ý tưởng & Nội dung:** Bản quyền thuộc về vũ trụ trộm chó thời đại mới.
+*   **Nhà tài trợ vàng:** Đồng hành và tài trợ dàn xe Exciter đời mới bởi **Cậu Lộc Góp Vui** & **Nguyễn Hoàng Hải Long**.
+*   **Đường dây nóng hỗ trợ toàn quốc:** `0327770315`
+
+---
+*Lưu ý: Đây là trò chơi giả lập clicker mang tính chất giải trí thuần túy, không cổ xúy cho bất kỳ hành vi vi phạm pháp luật nào ngoài đời thực.*
