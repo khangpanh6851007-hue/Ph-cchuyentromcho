@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phước Chuyên Trộm Chó 🐶🐕 - Phiên Bản Trộm Chó Tên Xu Và Chó Đen Nhỏ</title>
+    <title>Phước Chuyên Trộm Chó 🐶 - Phiên Bản Xu & Bé Đen Nhỏ</title>
     <style>
         * {
             margin: 0;
@@ -32,7 +32,7 @@
         }
 
         h1 {
-            font-size: 2.3rem;
+            font-size: 2.1rem;
             text-transform: uppercase;
             text-shadow: 3px 3px 0px #000;
             color: #fff;
@@ -48,11 +48,42 @@
         .marquee-2007 {
             background: #000;
             color: #00ffcc;
-            padding: 5px;
+            padding: 8px;
             font-weight: bold;
             border: 1px solid #ea00d9;
             margin-bottom: 15px;
             font-family: monospace;
+        }
+
+        /* Khu vực gọi điện khẩn cấp */
+        .call-banner {
+            background: #ff0055;
+            color: #fff;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            border: 2px solid #fff;
+            box-shadow: 0 0 10px #ff0055;
+        }
+
+        .btn-call {
+            display: inline-block;
+            background: #fff;
+            color: #ff0055;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 5px;
+            transition: 0.2s;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .btn-call:hover {
+            background: #00ffcc;
+            color: #000;
         }
 
         .stats-container {
@@ -70,25 +101,24 @@
         }
 
         .stat-box h3 {
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #00ffcc;
         }
 
         .stat-box p {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: bold;
             margin-top: 5px;
             text-shadow: 0 0 5px #00ffcc;
         }
 
-        /* Khu vực điều khiển chính */
         .main-layout {
             display: grid;
             grid-template-columns: 1fr;
             gap: 15px;
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
             .main-layout {
                 grid-template-columns: 2fr 1fr;
             }
@@ -102,7 +132,6 @@
             position: relative;
         }
 
-        /* Nút bấm hiệu ứng 2007 */
         .btn-steal {
             background: linear-gradient(135deg, #00f260, #0575e6);
             color: white;
@@ -119,10 +148,38 @@
 
         .btn-steal:active {
             transform: scale(0.9);
-            box-shadow: 0 0 5px #00f260;
         }
 
-        /* Cửa hàng nâng cấp tiện ích */
+        /* Trợ lý ảo AI Messenger */
+        .ai-assistant-zone {
+            background: #0f0f1a;
+            border: 2px solid #00f260;
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        .ai-header {
+            color: #00f260;
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .ai-bubble {
+            background: #1e1e2f;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #fff;
+            min-height: 40px;
+            border-left: 4px solid #00f260;
+        }
+
         .shop-zone {
             background-color: #1a1a1a;
             padding: 20px;
@@ -146,7 +203,7 @@
             background: #ea00d9;
             color: white;
             border: none;
-            padding: 5px 10px;
+            padding: 8px 12px;
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
@@ -168,10 +225,9 @@
             color: #00ff00;
             border: 1px solid #333;
             margin-top: 15px;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
-        /* Máy nghe nhạc giả lập Yahoo */
         .music-player {
             background: #222;
             border: 1px solid #555;
@@ -191,7 +247,6 @@
             padding-top: 15px;
         }
 
-        /* Hiệu ứng sao rơi khi click chuột */
         .star {
             position: absolute;
             color: #f9d423;
@@ -201,7 +256,7 @@
         }
 
         @keyframes fall {
-            to { transform: translateY(50px) rotate(360deg); opacity: 0; }
+            to { transform: translateY(60px) rotate(360deg); opacity: 0; }
         }
     </style>
 </head>
@@ -209,63 +264,75 @@
 
     <header>
         <h1>Phước Cô Thảo Chuyên Trộm Chó 🐶🐕</h1>
-        <p style="font-size:0.9rem; color:#fff; letter-spacing: 2px;">-= [ PHiÊn BảN Phước Trộm Chó ] =-</p>
+        <p style="font-size:0.9rem; color:#fff; letter-spacing: 2px;">-= [ PHIÊN BẢN HƯỚNG VỀ XU & BÉ ĐEN NHỎ ] =-</p>
     </header>
 
-    <!-- Dòng chữ chạy ngang huyền thoại thời 2007 -->
+    <!-- Đường dây nóng gọi trực tiếp -->
+    <div class="call-banner">
+        🚨 ĐƯỜNG DÂY NÓNG CHUỘC CHÓ KHẨN CẤP!
+        <br>
+        <a href="tel:0327770315" class="btn-call">📞 Bấm Gọi Chuộc Chó Ngay: 0327770315</a>
+    </div>
+
     <marquee class="marquee-2007" scrollamount="6">
-        🔥 [Tin Khẩn]: Cậu Lộc Góp Vui cùng Nguyễn Hoàng Hải Long vừa tài trợ dàn xe độ Exciter đời mới cho Phước gầm rú đêm nay! Đường dây nóng: 0327770315 gọi ngay để chuộc lại pet yêu! 🔥
+        🔥 [TIN NÓNG]: Phước đang nhắm vào mục tiêu tối thượng: Chó tên Xu và Chó Bé Đen Nhỏ! Cậu Lộc Góp Vui cùng Nguyễn Hoàng Hải Long đã nạp đầy bình xăng Exciter! Gọi ngay 0327770315 kẻo vào nồi! 🔥
     </marquee>
 
-    <!-- Máy phát nhạc giải lập -->
     <div class="music-player">
-        🎵 Đang phát: <i>Nhạc buồn Audition 2007 (Remix Bass cực mạnh).mp3</i>
-        <br><small style="color:#888;">[Mute / Giả lập âm thanh tự động kích hoạt]</small>
+        🎵 Đang phát: <i>Nhạc buồn Audition 2007 - Huyền thoại trộm chó remix.mp3</i>
     </div>
 
     <main class="main-layout">
-        <!-- Khu vực chơi game -->
+        <!-- Cột trái: Game & Log -->
         <div>
-            <!-- Bảng thành tích -->
             <div class="stats-container">
                 <div class="stat-box">
-                    <h3>Số Chó Hiện Có 🐶</h3>
+                    <h3>Số Chó Đã Quét 🐶</h3>
                     <p id="dog-count">0</p>
                 </div>
                 <div class="stat-box">
-                    <h3>Tốc độ hiện tại</h3>
+                    <h3>Tốc Độ Tối Đa</h3>
                     <p id="speed-text">180 km/h</p>
                 </div>
                 <div class="stat-box">
-                    <h3>Sức mạnh click</h3>
+                    <h3>Sức Bấm (Click)</h3>
                     <p id="click-power-text">1 Chó/Click</p>
                 </div>
                 <div class="stat-box">
-                    <h3>Auto tự trộm</h3>
+                    <h3>Auto Tự Trộm</h3>
                     <p id="cps-text">0/giây</p>
                 </div>
             </div>
 
-            <!-- Khu vực bấm tương tác -->
+            <!-- Khu vực tương tác chính -->
             <div class="action-zone" id="click-zone">
-                <p style="margin-bottom: 20px; font-size: 1.1rem; color: #f9d423;">Click điên cuồng giúp Phước quét sạch địa bàn!</p>
-                <button class="btn-steal" onclick="stealDog(event)">HÀNH ĐỘNG NGAY ⚡</button>
+                <p style="margin-bottom: 20px; font-size: 1.1rem; color: #f9d423;">Hãy click liên tục để giúp Phước lên ga, săn bằng được Xu và Bé Đen Nhỏ!</p>
+                <button class="btn-steal" onclick="stealDog(event)">VẶN TAY GA ĐUA ĐÊM ⚡</button>
             </div>
 
-            <!-- Nhật ký hành động -->
+            <!-- TRỢ LÝ ẢO MỚI (GIẢ LẬP GEMINI BOT 2007) -->
+            <div class="ai-assistant-zone">
+                <div class="ai-header">
+                    🤖 Trợ Lý Ảo Đua Đêm (Gemini-Minit):
+                </div>
+                <div class="ai-bubble" id="ai-bubble">
+                    Chào bạn! Tôi là trợ lý định vị của Phước. Hãy bấm vặn ga để bắt đầu truy tìm tung tích của chó Xu và Bé Đen Nhỏ trên bản đồ!
+                </div>
+            </div>
+
             <h3 style="text-align: left; margin-top: 15px; margin-bottom: 5px; color: #ea00d9; font-size: 1rem;">Nhật ký hành tung Yahoo:</h3>
             <div class="log-box" id="log-box">
-                [Hệ thống - 2007]: Đang tải cấu hình Yahoo Messenger... Phước chuẩn bị vặn tay ga... Sẵn sàng!<br>
+                [Hệ thống]: Đang đồng bộ hóa hệ thống định vị GPS Chợ Đen... Sẵn sàng!<br>
             </div>
         </div>
 
-        <!-- Cửa hàng Tiện ích (Mới nâng cấp) -->
+        <!-- Cột phải: Cửa hàng black market -->
         <div class="shop-zone">
             <h3 style="color: #00ffcc; text-align: center; margin-bottom: 10px; border-bottom: 1px solid #333; padding-bottom: 5px;">🛒 TIỆN ÍCH CHỢ ĐEN</h3>
             
             <div class="shop-item">
                 <div>
-                    <b>Bả Chó Hương Gà VIP</b><br>
+                    <b>Bả Chó Vị Khô Bò VIP</b><br>
                     <small>+1 Chó mỗi lần Click</small><br>
                     <small style="color: #ea00d9;">Giá: <span id="price-item1">10</span> Chó</small>
                 </div>
@@ -274,7 +341,7 @@
 
             <div class="shop-item">
                 <div>
-                    <b>Xe Wave Độ Kiểng</b><br>
+                    <b>Xe Wave Alpha Đôn Dên</b><br>
                     <small>Tự động trộm +1 Chó/giây</small><br>
                     <small style="color: #ea00d9;">Giá: <span id="price-item2">50</span> Chó</small>
                 </div>
@@ -283,74 +350,108 @@
 
             <div class="shop-item">
                 <div>
-                    <b>Độ Loa Kẹo Kéo 2007</b><br>
+                    <b>Loa Kẹo Kéo Bass Cực Mạnh</b><br>
                     <small>Tự động trộm +5 Chó/giây</small><br>
                     <small style="color: #ea00d9;">Giá: <span id="price-item3">200</span> Chó</small>
                 </div>
                 <button id="btn-item3" onclick="buyItem(3)">Mua</button>
             </div>
+
+            <div class="shop-item" style="border-left: 5px solid #ff0055; background: #2a1122;">
+                <div>
+                    <b>Định Vị Vệ Tinh "Xu & Bé Đen"</b><br>
+                    <small>Tăng mạnh tỉ lệ tìm thấy 2 siêu phẩm</small><br>
+                    <small style="color: #ff0055; font-weight: bold;">Giá: <span id="price-item4">500</span> Chó</small>
+                </div>
+                <button id="btn-item4" onclick="buyItem(4)">Mua</button>
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>© 2026 Website Này Cậu Lộc Góp Vui Và Nguyễn Hoàng Hải Long</p>
-        <p style="color: #00ffcc; font-weight: bold; margin-top: 5px;">📞 SĐT Chuộc Chó Toàn Quốc : 0327770315</p>
+        <p>© 2026 Website Bảo Mật Bởi Cậu Lộc Góp Vui & Nguyễn Hoàng Hải Long</p>
+        <p style="color: #00ffcc; font-weight: bold; margin-top: 5px;">☎️ Đường dây nóng chuộc pet Trên Toàn Quốc: 0327770315</p>
     </footer>
 
     <script>
         let totalDogs = 0;
         let clickPower = 1;
         let autoCps = 0;
+        let hasRadar = false;
 
-        // Giá cả vật phẩm ban đầu
-        let prices = { item1: 10, item2: 50, item3: 200 };
+        let prices = { item1: 10, item2: 50, item3: 200, item4: 500 };
 
-        const dogTypes = ["Chó Cỏ 🐶🐕", "Chó Pitbull 🐶", "Chó Husky ngáo 🐕", "Chó Golden 🐶", "Chó Poodle 🐩", "Chó Phú Quốc VIP"];
-        const situations = [
-            "thành công mỹ mãn, gia chủ đang mải nhảy Audition chưa kịp hiểu chuyện gì.",
-            "bị phát hiện nhưng lướt xe độ chạy thoát với tốc độ bàn thờ!",
-            "suýt bị cắn ngược nhưng nhờ bí kíp võ học 2007 đã né được.",
-            "tiện tay nhặt luôn đôi dép lào tổ ong huyền thoại của gia chủ."
+        const dogTypes = ["Chó Cỏ", "Chó Nhật lai", "Chó Husky ngáo", "Chó Poodle xoăn", "Chó Golden"];
+        
+        // Các câu thoại phản hồi động của Trợ lý ảo AI
+        const aiQuotes = [
+            "Tín hiệu định vị rất tốt, đẩy cao tốc độ lên bạn ơi!",
+            "Cẩn thận góc ngã tư kia, hình như gia chủ đang ôm gậy chờ sẵn!",
+            "Năng suất rất cao, Cậu Lộc đang vỗ tay tán thưởng Phước kìa!",
+            "Nguyễn Hoàng Hải Long vừa gửi thêm một bình xăng đầy, chạy tiếp thôi!",
+            "Nhạc Audition đang vào đoạn cao trào, quẩy xích xe lên nào!"
         ];
 
-        // Hàm xử lý khi click trộm chó
         function stealDog(event) {
             totalDogs += clickPower;
             updateDisplay();
             createClickEffect(event);
 
-            // Tỷ lệ hiện log ngẫu nhiên (30% để tránh ngập lụt log)
-            if(Math.random() < 0.4) {
+            // Xử lý logic ngẫu nhiên xuất hiện Chó Xu hoặc Bé Đen Nhỏ
+            let rand = Math.random();
+            let logText = "";
+
+            if (hasRadar && rand < 0.15) {
+                // Nếu có rada, tỉ lệ bắt được chó cốt truyện cao hơn
+                if(Math.random() < 0.5) {
+                    logText = `🔥 [SIÊU CẤP]: Phước đã câu thành công <b>Chó Tên Xu</b>! Gia chủ đang khóc ròng định gọi 0327770315!`;
+                    document.getElementById('ai-bubble').innerText = "🤖 [AI]: Xuất sắc! Đã tóm được Chó Tên Xu, mau đem về căn cứ không họ đòi chuộc!";
+                } else {
+                    logText = `🔥 [SIÊU CẤP]: Phước hốt gọn gàng <b>Bé Đen Nhỏ</b> đang đi lạc! Quá nhanh quá nguy hiểm!`;
+                    document.getElementById('ai-bubble').innerText = "🤖 [AI]: Bé Đen Nhỏ đã sa lưới! Quá đỉnh, rada vệ tinh quét chuẩn xác!";
+                }
+                addLog(logText);
+            } else if (rand < 0.35) {
+                // Tỉ lệ xuất hiện chó thông thường
                 const randomDog = dogTypes[Math.floor(Math.random() * dogTypes.length)];
-                const randomSit = situations[Math.floor(Math.random() * situations.length)];
-                addLog(`[Hành động]: Phước câu được 1 em <b>${randomDog}</b> - ${randomSit}`);
+                addLog(`[Hành động]: Phước câu được 1 em <b>${randomDog}</b> thành công, vặn ga biến mất vào màn đêm!`);
+                
+                // Trợ lý ảo xen vào nói chuyện ngẫu nhiên
+                if(Math.random() < 0.5) {
+                    document.getElementById('ai-bubble').innerText = "🤖 [AI]: " + aiQuotes[Math.floor(Math.random() * aiQuotes.length)];
+                }
             }
         }
 
-        // Hàm mua vật phẩm tiện ích
         function buyItem(id) {
             if (id === 1 && totalDogs >= prices.item1) {
                 totalDogs -= prices.item1;
                 clickPower += 1;
                 prices.item1 = Math.round(prices.item1 * 1.5);
-                addLog(`[Nâng cấp]: Mua thành công Bả Chó VIP! Sức mạnh tăng.`);
+                addLog(`[Nâng cấp]: Kích hoạt Bả Khô Bò VIP! Mỗi cú click lôi cuốn hơn.`);
             } else if (id === 2 && totalDogs >= prices.item2) {
                 totalDogs -= prices.item2;
                 autoCps += 1;
                 prices.item2 = Math.round(prices.item2 * 1.6);
                 document.getElementById("speed-text").innerText = "220 km/h";
-                addLog(`[Nâng cấp]: Phước lên đời Xe Wave Kiểng, bắt đầu tự động quét địa bàn!`);
+                addLog(`[Nâng cấp]: Lên đời Wave Alpha Đôn Dên, xe tự chạy xé gió đêm!`);
             } else if (id === 3 && totalDogs >= prices.item3) {
                 totalDogs -= prices.item3;
                 autoCps += 5;
                 prices.item3 = Math.round(prices.item3 * 1.7);
-                document.getElementById("speed-text").innerText = "Bốc đầu 280km/h";
-                addLog(`[Nâng cấp]: Bật loa kẹo kéo nhạc bay phòng, chó tự động chạy theo Phước!`);
+                document.getElementById("speed-text").innerText = "Bốc đầu 299km/h";
+                addLog(`[Nâng cấp]: Bật loa kẹo kéo, nhạc dập tới đâu chó chạy theo tới đó!`);
+            } else if (id === 4 && totalDogs >= prices.item4) {
+                totalDogs -= prices.item4;
+                hasRadar = true;
+                prices.item4 = 9999999; // Chỉ mua được 1 lần
+                document.getElementById('btn-item4').innerText = "Đã bật";
+                document.getElementById('ai-bubble').innerText = "🤖 [AI Vệ Tinh]: Đã khóa mục tiêu Chó Tên Xu và Bé Đen Nhỏ! Tỉ lệ gặp tăng mạnh!";
+                addLog(`[Nâng cấp]: Bật Rada Vệ Tinh thành công! Tọa độ của Xu và Bé Đen đã hiển thị trên màn hình Exciter!`);
             }
             updateDisplay();
         }
 
-        // Cập nhật trạng thái giao diện và các nút bấm
         function updateDisplay() {
             document.getElementById('dog-count').innerText = totalDogs;
             document.getElementById('click-power-text').innerText = `${clickPower} Chó/Click`;
@@ -359,43 +460,47 @@
             document.getElementById('price-item1').innerText = prices.item1;
             document.getElementById('price-item2').innerText = prices.item2;
             document.getElementById('price-item3').innerText = prices.item3;
+            if(!hasRadar) document.getElementById('price-item4').innerText = prices.item4;
 
-            // Kích hoạt/Vô hiệu hóa nút mua dựa trên số tiền
             document.getElementById('btn-item1').disabled = totalDogs < prices.item1;
             document.getElementById('btn-item2').disabled = totalDogs < prices.item2;
             document.getElementById('btn-item3').disabled = totalDogs < prices.item3;
+            document.getElementById('btn-item4').disabled = hasRadar || totalDogs < prices.item4;
         }
 
-        // Thêm log vào hộp thoại nhật ký
         function addLog(text) {
             const logBox = document.getElementById('log-box');
             logBox.innerHTML += `${text}<br>`;
             logBox.scrollTop = logBox.scrollHeight;
         }
 
-        // Vòng lặp chạy tự động (Auto CPS) hàng giây
+        // Vòng lặp Auto tự động tăng điểm theo giây
         setInterval(() => {
             if (autoCps > 0) {
                 totalDogs += autoCps;
                 updateDisplay();
+                
+                // Xác suất nhỏ tự động bắt được chó cốt truyện bằng Auto
+                if(hasRadar && Math.random() < 0.05) {
+                    let target = Math.random() < 0.5 ? "Chó Tên Xu" : "Bé Đen Nhỏ";
+                    addLog(`🚨 [AUTO TRỘM]: Xe độ lướt qua nhanh như một vị thần, bốc luôn <b>${target}</b>!`);
+                }
             }
         }, 1000);
 
-        // Hiệu ứng ngôi sao lấp lánh phong cách năm 2007 khi nhấn nút
         function createClickEffect(e) {
             const zone = document.getElementById('click-zone');
             for(let i=0; i<3; i++) {
                 const star = document.createElement('span');
                 star.className = 'star';
-                star.innerText = '✨';
-                star.style.left = (e.clientX - zone.getBoundingClientRect().left + window.scrollX + (Math.random()*30 - 15)) + 'px';
-                star.style.top = (e.clientY - zone.getBoundingClientRect().top + window.scrollY + (Math.random()*30 - 15)) + 'px';
+                star.innerText = Math.random() < 0.5 ? '✨' : '🐶';
+                star.style.left = (e.clientX - zone.getBoundingClientRect().left + window.scrollX + (Math.random()*40 - 20)) + 'px';
+                star.style.top = (e.clientY - zone.getBoundingClientRect().top + window.scrollY + (Math.random()*40 - 20)) + 'px';
                 zone.appendChild(star);
                 setTimeout(() => star.remove(), 800);
             }
         }
 
-        // Chạy kiểm tra ban đầu
         updateDisplay();
     </script>
 </body>
