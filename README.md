@@ -1,51 +1,62 @@
-# 🐶 Phước Cô Thảo Chuyên Trộm Chó - Phiên Bản Xu & Bé Đen Nhỏ (2026)
+# 🐶 Phước Cô Thảo Chuyên Trộm Chó — Phiên Bản Xu & Bé Đen Nhỏ & Bé Đóm Đóm 🛵💨
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen?style=flat-square&logo=github)](https://github.com/)
-[![Built with Acode](https://img.shields.io/badge/Built%20with-Acode%20Android-blue?style=flat-square)](https://play.google.com/store/apps/details?id=com.foxdebug.acode)
-[![Style](https://img.shields.io/badge/Style-Y2K%20/%202007%20Audition-ff007f?style=flat-square)]()
-
-Một tựa game giải trí phong cách **Clicker / Idle Game** mang đậm màu sắc hoài niệm những năm 2007, kết hợp với các công nghệ và tính năng hiện đại của năm 2026. Dự án được tối ưu hóa hoàn hảo để phát triển trên môi trường di động (**Acode App**) và triển khai nhanh chóng thông qua **GitHub Pages**.
+> **"-= [ PHIÊN BẢN HƯỚNG VỀ XU & BÉ ĐEN NHỎ & BÉ ĐÓM ĐÓM ] =-"**  
+> Một trang web game clicker phong cách **Internet Y2K / Yahoo Messenger / Audition 2007** tái hiện hành trình đua đêm, vặn ga xé gió và săn các siêu phẩm bốn chân!
 
 ---
 
-## 🚀 Tính Năng Mới Cập Nhật (Phiên Bản 2026)
+## 📌 Giới Thiệu
 
-*   **📞 Tích Hợp Gọi Trực Tiếp (Direct Call System):** Banner đường dây nóng thông minh. Người chơi chỉ cần nhấn vào nút chuộc pet, hệ thống sẽ tự động kích hoạt trình gọi điện (`tel:`) trên smartphone.
-*   **🤖 Trợ Lý Ảo Đua Đêm (Giả Lập Gemini AI):** Hệ thống AI tích hợp hiển thị hộp thoại tương tác động, đưa ra chỉ dẫn, cảnh báo địa bàn và phản hồi theo thời gian thực dựa trên tiến trình của người chơi.
-*   **🎯 Tuyến Cốt Truyện "Xu & Bé Đen Nhỏ":** Bổ sung vật phẩm tối thượng **Rada Định Vị Vệ Tinh**. Khi kích hoạt sẽ mở khóa tỷ lệ săn tìm hai mục tiêu VIP truyền thuyết: *Chó Tên Xu* và *Bé Đen Nhỏ*.
-*   **⚡ Hiệu Ứng Click Thần Tốc:** Tạo hiệu ứng icon emoji rơi ngẫu nhiên ngay tại vị trí con trỏ chuột/ngón tay chạm trên màn hình, mang lại cảm giác phản hồi cực đã tay.
+Đây là một mini-game tương tác dạng **Clicker / Idle Web Game** kết hợp hiệu ứng neon, giao diện hoài cổ mang đậm không khí những năm 2007. Bạn sẽ đóng vai trợ thủ đắc lực giúp **Phước** cùng đồng đội **Cậu Lộc Góp Vui** và **Nguyễn Hoàng Hải Long** nâng cấp xe, dùng bả VIP và bật Rada Vệ Tinh để truy bắt các mục tiêu huyền thoại: **Xu, Bé Đen Nhỏ và Bé Đóm Đóm**!
+
+---
+
+## 🔥 Tính Năng Nổi Bật
+
+- ⚡ **Clicker Gameplay Core**: Vặn tay ga liên tục để tích lũy số lượng chó thu thập.
+- 🛒 **Chợ Đen Black Market**:
+  - **Bả Chó Vị Khô Bò VIP**: Tăng sức mạnh mỗi cú click (`Click Power`).
+  - **Xe Wave Alpha Đôn Dên**: Tự động trộm theo giây (`Auto CPS`).
+  - **Loa Kẹo Kéo Bass Cực Mạnh**: Quẩy nhạc dập tới đâu, chó chạy theo tới đó.
+  - **Định Vị Vệ Tinh "Xu & Bé Đen & Bé Đóm"**: Khóa mục tiêu, tăng mạnh tỉ lệ trộm được các siêu phẩm cốt truyện!
+- 🤖 **Trợ Lý Ảo Đua Đêm (Gemini-Minit)**: Tự động phản hồi động theo từng thao tác vặn ga và nâng cấp.
+- 📞 **Đường Dây Nóng Khẩn Cấp**: Tích hợp nút gọi trực tiếp `0327770315` cho gia chủ muốn chuộc pet!
+- 📜 **Nhật Ký Yahoo & Hiệu Ứng Y2K**: Bảng log chạy chữ kiểu Terminal, hiệu ứng sao rơi khi click và thanh phát nhạc Audition hoài niệm.
 
 ---
 
 ## 🛠️ Công Nghệ Sử Dụng
 
-*   **Frontend:** Pure HTML5, CSS3 (Grid Layout, Flexbox, Keyframe Animations).
-*   **Logic Game:** Thuần JavaScript (Vanila JS), quản lý trạng thái (`State`), vòng lặp tự động (`setInterval`).
-*   **Môi trường phát triển:** Tối ưu hóa 100% trên ứng dụng chỉnh sửa mã nguồn **Acode (Android)**.
+- **HTML5**: Cấu trúc trang web chuẩn, tương thích tốt trên Mobile & Desktop.
+- **CSS3**: Layout Grid/Flexbox, hiệu ứng Neon Glow, Keyframe Animations (`pulse`, `fall`).
+- **JavaScript (Vanilla JS)**: Xử lý logic game, hệ thống đếm tự động (`setInterval`), xử lý xác suất ngẫu nhiên (Random Event) và tạo hiệu ứng tương tác (Particle Effects).
 
 ---
 
-## 📦 Hướng Dẫn Cài Đặt & Chạy Dự Án
+## 🚀 Hướng Dẫn Cài Đặt & Chạy
 
-### Cách 1: Chạy trực tiếp qua Acode trên Android
-1. Sao chép toàn bộ mã nguồn của tệp `index.html`.
-2. Mở ứng dụng **Acode**, tạo một tệp mới đặt tên là `index.html` và dán mã nguồn vào.
-3. Nhấn vào biểu tượng **Play** trên thanh công cụ của Acode để khởi chạy và trải nghiệm game ngay trên điện thoại.
+Do game được viết hoàn toàn bằng **Pure Web Technologies (Single File)**, bạn không cần cài đặt Node.js hay Build Tool phức tạp:
 
-### Cách 2: Treo game lên GitHub Pages (Miễn phí)
-1. Tạo một kho lưu trữ (**Repository**) mới trên GitHub của bạn.
-2. Tải tệp `index.html` lên nhánh chính (`main` hoặc `master`).
-3. Đi tới mục **Settings** (Cài đặt) -> **Pages**.
-4. Tại mục *Build and deployment*, chọn nhánh `main` và thư mục `/ (root)`, sau đó nhấn **Save**.
-5. Chờ khoảng 1-2 phút, GitHub sẽ cung cấp cho bạn một đường liên kết dạng `https://<ten-tai-khoan>.github.io/<ten-kho-luu-tru>/` để chơi trực tuyến.
+1. **Tải file về máy**: Clone hoặc copy mã nguồn HTML.
+2. **Lưu file**: Đặt tên file là `index.html`.
+3. **Chạy game**: Click kép vào file `index.html` để mở trực tiếp trên bất kỳ trình duyệt nào (Chrome, Edge, Firefox, Safari).
 
 ---
 
-## 📝 Bản Quyền và Tài Trợ
+## 🎮 Cách Chơi
 
-*   **Ý tưởng & Nội dung:** Bản quyền thuộc về vũ trụ trộm chó thời đại mới.
-*   **Nhà tài trợ vàng:** Đồng hành và tài trợ dàn xe Exciter đời mới bởi **Cậu Lộc Góp Vui** & **Nguyễn Hoàng Hải Long**.
-*   **Đường dây nóng hỗ trợ toàn quốc:** `0327770315`
+1. Nhấp liên tục vào nút **`VẶN TAY GA ĐUA ĐÊM ⚡`** để tích lũy số chó.
+2. Dùng số chó thu thập được để mua vật phẩm tại **TIỆN ÍCH CHỢ ĐEN**.
+3. Hãy mua ngay **Rada Vệ Tinh** sớm nhất có thể để săn thành công **Xu**, **Bé Đen Nhỏ** và **Bé Đóm Đóm**!
+4. Theo dõi hộp tin nhắn của **Trợ Lý Ảo AI** và bảng **Nhật ký hành tung Yahoo** để cập nhật diễn biến!
 
 ---
-*Lưu ý: Đây là trò chơi giả lập clicker mang tính chất giải trí thuần túy, không cổ xúy cho bất kỳ hành vi vi phạm pháp luật nào ngoài đời thực.*
+
+## 📢 Bản Quyền & Tác Giả
+
+- **Developer / Bảo mật bởi**: *Cậu Lộc Góp Vui & Nguyễn Hoàng Hải Long*
+- **Hotline Chuộc Pet**: `0327770315`
+- **Copyright**: © 2026 Phước Cô Thảo Entertainment Group.
+
+> *Lưu ý: Game được tạo ra hoàn toàn dựa trên mục đích giải trí, hoài niệm văn hóa Internet 2007 và mang tính chất hư cấu 100%!*
+> 
