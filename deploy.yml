@@ -1,19 +1,22 @@
-name: Deploy Game Tới GitHub Pages 🚀
+name: Deploy to GitHub Pages
 
 on:
+  # Tự động chạy khi bạn push code lên branch main (hoặc master)
   push:
     branches:
       - main
-      - master # Tự động chạy khi push code vào nhánh main hoặc master
-  workflow_dispatch: # Cho phép bấm nút kích hoạt chạy bằng tay nếu muốn
+      - master
 
-# Thiết lập quyền hạn bảo mật tối thiểu cho GitHub Actions năm 2026
+  # Cho phép bạn bấm nút chạy thủ công trên GitHub nếu muốn
+  workflow_dispatch:
+
+# Cấp quyền cho GitHub Actions có thể deploy lên Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Tránh xung đột khi push liên tục (Hủy các tiến trình cũ chưa chạy xong)
+# Cho phép hủy các lần deploy cũ nếu có lần deploy mới hơn đang chạy
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -25,18 +28,19 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Bước 1: Kéo mã nguồn mới nhất từ Kho về hệ thống 📂
+      - name: 1. Checkout repository
         uses: actions/checkout@v4
 
-      - name: Bước 2: Cấu hình môi trường GitHub Pages 🛠️
+      - name: 2. Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Bước 3: Nén và đóng gói các tệp tĩnh (HTML/CSS/JS) 📦
+      - name: 3. Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # Chọn thư mục gốc (nơi chứa index.html và README.md)
+          # Deploy toàn bộ thư mục gốc chứa file index.html
+          path: '.'
 
-      - name: Bước 4: Đẩy thẳng lên máy chủ GitHub Pages công khai 🚀
+      - name: 4. Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         
